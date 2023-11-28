@@ -21,22 +21,40 @@
 /* BASE STYLES
 /*******************************************/
 
-body {
+ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
 
 }
-
+li{
+  margin: 0 20px;
+}
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
-
+.header {
+  background-color: #1F2937;
+  color: #F9FAF8;
 }
 
 footer {
-
+  background-color: #1F2937;
+  color: #F9FAF8;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+.upper{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-logo{
+  font-size: 24px;
+  color: #F9FAF8;
+}
+

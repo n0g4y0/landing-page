@@ -160,3 +160,32 @@ footer {
   font-weight: 800;
   font-size: 36px;
 }
+
+.call-to-action{
+  width: 699px;
+    height: 141px; 
+    background-color: #3b82f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 75px auto;
+    border-radius: 10px;
+}
+
+h5{
+  margin: 5px 0;
+  color: white;
+}
+
+.call-title{
+  color: white;
+}
+
+.call-button{
+  color: white;
+  background-color: #3b82f6;
+  border: 2px solid white;
+  border-radius: 7px;
+  width: 130px;
+  padding: 5px;
+}

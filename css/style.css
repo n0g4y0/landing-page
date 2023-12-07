@@ -132,11 +132,12 @@ body {
 }
 
 .container-article-p{
-  font-size: 13px;
+  font-size: 15px;
   color: black;
   width: 150px;
   margin: 0 20px;
   text-align: center;
+  font-weight: 800;
 }
 .photos{
   display: flex;
